@@ -1,1 +1,1 @@
-The projects for JS advanced
+My advanced Javascript project
