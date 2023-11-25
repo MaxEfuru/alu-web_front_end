@@ -1,2 +1,1 @@
-#Write_Less_Do More
-This is my JQuery project
+This folder contains my JS Query project
