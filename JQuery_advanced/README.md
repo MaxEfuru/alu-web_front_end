@@ -1,2 +1,2 @@
-These are the JQuery projects
-
+#Write Less, Do More
+This is my JQuery project
