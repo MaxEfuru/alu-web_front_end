@@ -1,9 +1,11 @@
-// sorting
-$list_to_sort: john, anna, zoe, kim, felicia, carrie;
+// 103-sort_strings.scss
 
-@function sortList($list) {
-  $sorted_list: sort($list);
-  @return $sorted_list;
-}
+// Define the list to sort
+$list_to_sort: john anna zoe kim felicia carrie;
 
-@debug "Sorted list: #{sortList($list_to_sort)}";
+// Sort the list
+$sorted_list: sort($list_to_sort);
+
+// Print the sorted list
+@warn("103-sort_list_0.scss: DEBUG: #{$sorted_list}");
+
