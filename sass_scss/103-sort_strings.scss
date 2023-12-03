@@ -1,11 +1,9 @@
 // sorting
-// Define the list to sort
-$list_to_sort: john anna zoe kim felicia carrie;
+$list_to_sort: john, anna, zoe, kim, felicia, carrie;
 
-// Sort the list using the Sass sort function
-$sorted_list: sort($list_to_sort);
-
-// Print the sorted list
-@for $i from 1 through length($sorted_list) {
-  #{'$'}item: #{$sorted_list[$i]};
+@function sortList($list) {
+  $sorted_list: sort($list);
+  @return $sorted_list;
 }
+
+@debug "Sorted list: #{sortList($list_to_sort)}";
