@@ -1,21 +1,11 @@
 // sorting
-
-// 103-sort_list_0.scss
-
+// Define the list to sort
 $list_to_sort: john anna zoe kim felicia carrie;
 
-// Sort the list
-$list_to_sort: sort($list_to_sort);
+// Sort the list using the Sass sort function
+$sorted_list: sort($list_to_sort);
 
-// Print the sorted list in debug output
-@debug $list_to_sort;
-
-// 103-sort_list_1.scss
-
-$list_to_sort: bob anna sylvain john ludo colin patrick;
-
-// Sort the list
-$list_to_sort: sort($list_to_sort);
-
-// Print the sorted list in debug output
-@debug $list_to_sort;
+// Print the sorted list
+@for $i from 1 through length($sorted_list) {
+  #{'$'}item: #{$sorted_list[$i]};
+}
