@@ -1,5 +1,5 @@
 # Love Cookies?🍪
-If you have a sweet tooth for both cookies and local storage, you've come to the right place. This folder isabout cookies and local storage.
+If you have a sweet tooth for both cookies and local storage, you've come to the right place. This folder is about cookies and local storage.
 
 ## About Cookies 🍪
 In the realm of web development, cookies are small pieces of data stored on a user's device by their web browser. These delicious morsels play a crucial role in creating personalized and interactive web experiences. Cookies are often used to remember user preferences, track user activities, and provide a seamless browsing experience.
