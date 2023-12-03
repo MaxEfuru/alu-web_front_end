@@ -1,0 +1,9 @@
+// 100-loop_col.scss
+
+$col-count: 4;
+
+@for $i from 1 through $col-count {
+  .col-#{$i} {
+    width: percentage(1 / $i);
+  }
+}
